@@ -1,4 +1,43 @@
 html, body {
+    position: relative;
     margin: 0;
     padding: 0;
+}
+
+/* 2ECC71 */
+
+nav {
+    position: relative;
+    background-color: #27AE60;
+    display: flex;
+    color: #fff;
+    width: 100%;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    bottom: auto;
+    right: 25px;
+    width: 40%;
+    margin-top: 0;
+    height: 100%;
+}
+
+li {
+    line-height: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: #fff 4px solid;
 }
