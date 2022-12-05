@@ -31,13 +31,13 @@ html, body {
     height: 100%;
 }
 
-#menu-item {
+.menu-item {
     line-height: 100px;
     font-size: 18px;
     text-align: center;
 }
 
-#menu-item:hover {
+.menu-item:hover {
     cursor: pointer;
     border-bottom: #fff 4px solid;
 }
