@@ -2,6 +2,7 @@ html, body {
     position: relative;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 a {
@@ -10,13 +11,15 @@ a {
 }
 
 /* 2ECC71 */
+/* 27AE60 */
 
 #menu {
     position: relative;
-    background-color: #27AE60;
+    background-color: #5DBDA9;
     display: flex;
     color: #fff;
     width: 100%;
+    margin: 0;
 }
 
 #menu-logo {
@@ -50,4 +53,41 @@ a {
 .menu-item:hover {
     cursor: pointer;
     border-bottom: #fff 4px solid;
+}
+
+#agenda {
+    position: relative;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+button {
+    display: flex;
+    width: 200px;
+    height: 33px;
+    background-color: #F5906C;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer {
+    border-top: solid #27AE60 3px;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    background: center no-repeat url("../img/paysage-montagne-degrade_52683-77407.webp");
+    background-size: cover;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    color: #ffffff;
 }
