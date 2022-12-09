@@ -119,3 +119,23 @@ footer {
     text-align: center;
     color: #ffffff;
 }
+
+.member {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.ContainMember {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    padding: 50px;
+    height: 75px;
+    
+}
+
+ .member > li {
+    margin: 5px;
+}
