@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     position: relative;
     margin: 0;
@@ -56,12 +61,21 @@ a {
 }
 
 #agenda {
+    top: 0;
     position: relative;
     margin: 0;
     background-color: black;
     color: white;
     text-align: center;
     padding: 3px;
+}
+
+#agenda > i {
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    right: 10px;
+    top: 5px;
 }
 
 button {
