@@ -82,11 +82,18 @@ button {
     display: flex;
     width: 200px;
     height: 33px;
-    background-color: #F5906C;
+    background-color: #5DBDA9;
+    border: 2px solid #5bb09e;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #5bb09e;
+    transition: all 1s;
 }
 
 footer {
