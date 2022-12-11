@@ -79,24 +79,6 @@ a {
     top: 5px;
 }
 
-button {
-    display: flex;
-    width: 200px;
-    height: 33px;
-    background-color: #5DBDA9;
-    border: 2px solid #5bb09e;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 1s;
-}
-
-button:hover {
-    background-color: #5bb09e;
-    transition: all 1s;
-}
-
 footer {
     background-color: #5DBDA9;
     color: #ffffff;
@@ -116,8 +98,10 @@ footer > h4 > a {
 }
 
 #main {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 100%;
     background: center no-repeat url("../img/paysage-montagne-degrade_52683-77407.webp");
@@ -289,19 +273,28 @@ footer > h4 > a {
     display: block;
     align-self: center;
     text-align: center;
-    border: solid ;
     cursor: pointer;
-    border: #51b4a0 4px solid;
-    padding: 5px 15px;
+    padding: 9px 19px;
     border-radius: 50px;
     color: #ffffff;
     width: 150px;
     background-color: #51b4a0;
 }
 
-.readButton:hover {
+#moreInfo {
+    text-align: center;
+    background-color: #51b4a0;
+    border: none;
     cursor: pointer;
-    border: #5DBDA9 4px solid;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.readButton:hover, #moreInfo:hover {
+    cursor: pointer;
     background-color: #5DBDA9;
 }
 
