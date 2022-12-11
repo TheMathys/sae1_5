@@ -210,17 +210,15 @@ footer {
 }
 
 .invert :nth-child(odd){
-    display: flex;
     flex-direction: row-reverse;
 }
 
 .information {
     display: flex;
     flex-direction: row;
-    margin: 15px 50px;
-    border: #5DBDA9 solid ;
-    border-radius: 50px;
-    padding: 1%;
+    margin: 30px 50px;
+    padding-top: 30px;
+    border-top: #5DBDA9 3px solid;
 }
 
 .informationtxt {
@@ -232,8 +230,9 @@ footer {
 }
 
 .informationimg {
-    max-height: 10%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
 }
 
 
