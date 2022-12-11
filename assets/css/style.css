@@ -177,7 +177,7 @@ footer > h4 > a {
 
 .InscriptionButton:hover { 
     cursor: pointer;
-    border: #5DBDA9 4px solid;
+    border: #5DBDA9 solid;
     background-color: #5DBDA9;
     color: #ffffff;
     transition: all 1s;
