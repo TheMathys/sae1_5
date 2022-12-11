@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 html, body {
@@ -179,13 +180,14 @@ footer {
     border-radius: 30px;
     padding: 10px;
     background-color: rgb(245, 200, 116);
-    
+    transition: all 1s;
 }
 
 .InscriptionButton:hover { 
     cursor: pointer;
     border: #5DBDA9 4px solid;
     background-color: #5DBDA9;
+    transition: all 1s;
 }
 
 .missionContain{
