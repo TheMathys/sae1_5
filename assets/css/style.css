@@ -188,8 +188,6 @@ footer {
 
 .missionContain{
     display: flex;
-    border: #5DBDA9 solid 1px;
-    border-radius: 50px;
     justify-content: center ;
     justify-content: space-around;
     margin: 10px;
@@ -202,15 +200,13 @@ footer {
 
 .mission > img {
     max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
 }
 
-.mission > img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    margin-bottom: 15px;
+.mission > h2, .titre {
+    color: rgb(63,161,82);
 }
 
 .invert :nth-child(odd){
