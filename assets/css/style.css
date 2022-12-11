@@ -98,6 +98,8 @@ button:hover {
 }
 
 footer {
+    background-color: #5DBDA9;
+    color: #ffffff;
     border-top: solid #5bb09e 3px;
     display: flex;
     flex-direction: column;
@@ -106,6 +108,11 @@ footer {
     padding: 20px;
     margin-top: 30px;
     height: 75px;
+}
+
+footer > h4 > a {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #main {
@@ -188,6 +195,7 @@ footer {
     cursor: pointer;
     border: #5DBDA9 4px solid;
     background-color: #5DBDA9;
+    color: #ffffff;
     transition: all 1s;
 }
 
@@ -242,6 +250,11 @@ footer {
 
 .search {
     padding: 25px;
+    text-align: center;
+}
+
+.search > label {
+    margin-left: 10px;
 }
 
 .articlecontain {
