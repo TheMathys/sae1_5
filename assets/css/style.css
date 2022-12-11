@@ -252,12 +252,9 @@ footer {
 
 .article {
     display: flex;
-    border-bottom: #5DBDA9 solid 2px;
     border-top: #5DBDA9 solid 2px;
-    padding: 1%;
-    margin: 25px;
     justify-content: space-between;
-    
+    padding: 25px;
 }
 
 .articletxt {
@@ -265,26 +262,27 @@ footer {
     text-align: justify;
     flex-direction: column;
     align-self: center;
-    justify-content: center;
-    max-width: 57%;
     width: auto;
 }
 .articletxt > h3{
     align-self: center;
-    padding-bottom: 10px;
+}
+
+.articletxt > p {
+    margin: 50px;
 }
 
 .readButton {
-    display: flex;
+    display: block;
     align-self: center;
-    font-size: larger;
+    text-align: center;
     border: solid ;
-    max-width: 10%;
-    width: auto;
     cursor: pointer;
     border: #51b4a0 4px solid;
-    padding: 5px;
+    padding: 5px 15px;
     border-radius: 50px;
+    color: #ffffff;
+    width: 150px;
     background-color: #51b4a0;
 }
 
@@ -340,4 +338,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px;
 }
