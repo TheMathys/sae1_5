@@ -128,7 +128,7 @@ footer > h4 > a {
     height: 75px;
     
     margin-bottom: 20px;
-    border-bottom: #5bb09e solid;
+    border-bottom: #51b4a0 solid;
     
 }
 
@@ -147,10 +147,15 @@ footer > h4 > a {
     align-items: center;
 }
 
+.mediabox > h2 {
+    margin-bottom: 25px;
+}
+
 .titre {
     text-align: center;
     padding: 10px;
     margin-top: 15px;
+    color: #51b4a0;
 }
 
 .condition {
@@ -202,7 +207,7 @@ footer > h4 > a {
     margin-bottom: 15px;
 }
 
-.mission > h2, .titre {
+.mission > h2 {
     color: rgb(63,161,82);
 }
 
